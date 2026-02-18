@@ -173,6 +173,8 @@ const spinGame = () => {
     if (balance <= 0) {
         messageDisplay.innerText = "Game Over! Please deposit more money.";
     }
+    linesInput.value = "";
+    betInput.value = "";
 };
 
 document.getElementById("deposit-button").addEventListener("click", deposit);
