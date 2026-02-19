@@ -18,21 +18,7 @@ body{
     gap: 10px;
 }
 
-.slot{
-    width: 100px;
-    height: 100px;
-    background-color: black;
-    border: 3px solid gold;
-    border-radius: 10px;
 
-    color: white;
-    font-size: 50px;
-    font-weight: bold;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .controls {
     margin-top: 20px;
